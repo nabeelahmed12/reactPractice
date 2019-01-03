@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            I am Nabeel
+            Hello world
           </a>
         </header>
       </div>
