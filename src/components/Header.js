@@ -1,14 +1,14 @@
 import React from "react";
 
-export class Header extends React.Component {
-  render() {
+export const Header = (props) =>{
+  
     return (
       <nav className="navbar navbar-default">
         <div className="container">
           <div className="navbar-header">
             <ul className="nav navbar-nav">
               <li>
-                <button>Home</button>
+                <button>{props.homelink}</button>
               </li>
             </ul>
           </div>
@@ -16,4 +16,4 @@ export class Header extends React.Component {
       </nav>
     );
   }
-}
+
